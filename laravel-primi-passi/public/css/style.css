@@ -1,12 +1,12 @@
 *{
   box-sizing: border-box;
   margin: 0;
-  color: var(--laravel-red);
+  font-family: sans-serif;
 }
 
-.debug{
+/* .debug{
   border: 1px dashed black;
-}
+} */
 
 :root{
   --laravel-red: #FF2D20;
@@ -18,17 +18,18 @@ ul, li{
   margin-right: 10px;
   font-size: 1.2rem;
   font-weight: 600;
-  font-family: sans-serif;
-  a{
-    text-decoration: none;
-  }
+}
+a{
+  text-decoration: none;
+  color: var(--laravel-red);
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 
 .container-xl{
   width: 90%;
   margin: 0 auto;
 }
-
 .row{
   width: 100%;
   padding: 1rem;
@@ -36,14 +37,72 @@ ul, li{
   align-items: center;
   justify-content: space-between;
 }
+[class^="col"] {
+  :nth-child(1){
+    margin-bottom: 0.5rem;
+  }
+  :nth-child(2){
+    width: 80%;
+  }
+}
+.col-4{
+  width: calc((100% / 12) * 4);
+}
+.col-6{
+  width: calc((100% / 12) * 6);
+} 
+.col-8{
+  width: calc((100% / 12) * 8);
+} 
 
+/* partials */
 #my_navbar{
   width:100%;
-  
+  margin-bottom: 2rem;
+
+  #nav_logo{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  #my_btn{
+    border: 1px solid;
+    padding: 0.5rem;
+  }
 }
 
-#nav_logo{
-  display: flex;
-  align-items: center;
-  gap: 1rem;
+#layout_dump{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  #layout_align{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .btn{
+      margin-top: 1.5rem;
+      a{
+        border: 1px solid;
+        padding: 0.5rem;
+      }
+    }
+  }
+}
+
+/* pages */
+#my_content{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: sans-serif;
+
+  > * {
+    margin-bottom: 1rem;
+  }
+  :nth-child(1){
+    color: var(--laravel-red);
+  }
+  :nth-child(2){
+    width: 50%;
+    margin: 0 auto;
+  }
 }
