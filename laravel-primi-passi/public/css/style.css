@@ -1,0 +1,49 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  color: var(--laravel-red);
+}
+
+.debug{
+  border: 1px dashed black;
+}
+
+:root{
+  --laravel-red: #FF2D20;
+}
+
+ul, li{
+  list-style: none;
+  display: inline;
+  margin-right: 10px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: sans-serif;
+  a{
+    text-decoration: none;
+  }
+}
+
+.container-xl{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.row{
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#my_navbar{
+  width:100%;
+  
+}
+
+#nav_logo{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
