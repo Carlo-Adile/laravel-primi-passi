@@ -1,7 +1,7 @@
 <div class="container-xl" id="layout_dump">
   <div class="row" id="layout_align">
-    <div class="col-6 debug">
-      <h1>Write code for the joy of it.</h1>
+    <div class="col-4 debug">
+      <h2>Write code for the joy of it.</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quas neque tempore ut earum aperiam dicta reiciendis dolores, est, obcaecati distinctio commodi. Libero quibusdam et, neque quia quis repellat ut dolorem, fugit incidunt quam voluptates provident in. Inventore, doloremque nisi numquam at repellendus ipsum amet placeat, dicta architecto, iusto autem!</p>
       <div class="btn">
         <a href="" class="btn">START LEARNING</a>
@@ -69,9 +69,9 @@
                 </svg>
             </div>
     </div>
-    <div class="col-6 debug">
-      <h1>One Framework, Many Flavors</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, debitis alias pariatur quaerat maxime doloremque perferendis iure mollitia iste corporis aliquid ducimus facere magnam molestias similique harum non. Soluta, culpa.</p>
+    <div class="col-4 debug">
+      <h2>One Framework, Many Flavors</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, explicabo.</p>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nemo natus laborum temporibus eveniet non provident atque minima iste debitis.</p>
       <div class="btn">
         <a href="" class="btn">EMPOWER YOUR FRONTEND</a>
